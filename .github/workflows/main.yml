@@ -15,10 +15,13 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        lscpu
         cat /etc/issue
+        pwd
+        ls
         df -h
         whoami
-        ifconfig
         ls /home
+        ifconfig
+        lscpu
+        
         
