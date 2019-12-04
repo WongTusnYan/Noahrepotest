@@ -20,5 +20,5 @@ jobs:
         df -h
         whoami
         ifconfig
-        ll /home
+        ls /home
         
