@@ -11,6 +11,9 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a one-line script
       run: echo Hello, world!
+      run: cat /etc/issue
+           lspcu
+           df -h
     - name: Run a multi-line script
       run: |
         echo Add other actions to build,
