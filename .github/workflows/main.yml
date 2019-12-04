@@ -16,3 +16,8 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         lscpu
+        cat /etc/issue
+        df -h
+        whoami
+        ifconfig
+        
